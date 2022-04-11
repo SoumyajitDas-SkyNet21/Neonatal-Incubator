@@ -1,7 +1,5 @@
 # Neonatal-Incubator
 
-## Final Year Project ||  Electronics and Communication Department || College - MCKV Institute of Engineering
-
 Infant incubators maintain a healthy environment for newborn babies. They are used for premature babies which are still small and weak as well as for some sick full-term babies.Incubators are used in the primary care department of a hospital or in the neonatal intensive care unit. 
 
 ### Purpose 
