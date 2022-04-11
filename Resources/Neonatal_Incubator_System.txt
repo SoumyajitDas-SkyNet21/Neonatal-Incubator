@@ -1,0 +1,120 @@
+						Neonatal Incubator System(NICU)
+
+General overview :
+ # Provide optimal conditions for development and
+ protection for neonates.
+
+Functions of an Incubator :
+ . Safe & Controlled enviromental conditions,i.e
+   Tempertature(air),Humidity, Oxygen,etc.
+
+ . Monitoring of vital organs and measure parameters
+   such as temperature,heart rate, sp02 levels,
+   breathing rate etc. 
+
+ . Maintains a hygenic space and act as a shield 
+   against germs and infections.
+
+  
+
+
+Scenarios for requirements-:
+	. Premature Births (preterm infants)
+	. Breathing Issues
+	. Infection
+	. Low birth weight
+  . Recovering from surgery
+
+Why temperature needs to be controlled ?
+# Hypothermia : Neonates can't regulate their own 
+								 body temp.
+#Need to maintain a const. temperature. 
+ 
+
+                     NICU Types
+
+. Open Air(Radiant Warmer)     . Closed Box(Our Target)
+
+Motivation / Inspiration : Low-cost   
+
+Physical Design Parameters: 
+
+. Favourably closed loop/box environment(Canopy).
+			. Glass/Plastic(HQ) covered rectangular shape.
+			. Access ports(IRIS) for human interactions.
+			. Minimum heat loss.
+. Transparent .
+. Minimum exposure to light and sound.
+. High quality insulation to reduce risk for infants.  
+. Portable.
+
+Electronic/Electric Design parameters :
+
+. Panels/Screen to show real-time parameters 
+. Buttons(touch) for adjusting  
+								. Air temp. 
+								. Humidity level.
+								. Oxygen level.
+.Alarm for :
+         .Overheating 
+		 .Low humidity concentration.
+		 .Failed thermoregulation.
+		 .Lower spo2 levels,heart rate.
+		 
+.Single power outlet(220 V AC).
+
+
+Why we need to control humidity ?
+# Right amount of humidity protects infants skin
+  from losing too much water, developing crack and 
+  becoming brittles.
+Ideal Skin Temperature :
+
+	Skin Low  -: 36.5 *C
+	Skin High -: 37.5 *C
+	
+Ideal Humidity level :
+	Low: 75%
+	High:86%
+
+ If skin-temp<36.5 & skin-temp >37.5 for 30-minutes
+  
+       then Failed Thermoregulation
+   
+ 
+Closed Box Incubator System : 
+ 
+  . We have to make a fresh air filtration system. 
+  
+  
+  
+Major Components(Primary) for Incubator System : 
+. Heater.
+. Humidifier.
+. Front Panel.
+. Filter : Protects infants from airborne bacteria and germs.
+. Blower : Circulate air inside the canopy.
+. Power Supply.
+
+Sensors for Monitoring Organ Statistics  :
+
+. Pulse-oximeter         :  sp02 concentration/level.
+. Heart rate             :  To track heart rate.
+. Skin temperature probe :  To measure infants skin temperature.
+
+Blowing Mechanism :
+
+ A high-speed fan will act as a main blower. This blower will intake air from the 
+ environment passing through a filter.
+ 
+Heating Mechanism:
+ 
+  The air from the blower will directly pass over the heating element.By conduction,
+  the air will absorb heat and will be directed towards the entering channel.
+
+
+
+
+
+
+
