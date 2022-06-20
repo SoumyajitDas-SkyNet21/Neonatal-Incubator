@@ -1,38 +1,43 @@
-                       Neonatal Incubator System Requirements
+                                                             Neonatal Incubator System Requirements
 					                                                         
 1.> External(Housing/Casing) Design -:
    
-		Cabinet/Canopy : Plastic Cover with support from corners(Perpendiclular).
-        
-		Base : Cardboard/ Plywood. It will house the electronic system.
+		Cabinet/Canopy : Used a high quality plastic container.
+       
 		
 2.> System Design: 
    
-        Heating Element    : Petier 
+        Heating Element    : Petier Module ( TEC-12706)
 		
-		Heat Dissipation   : Heat Sink + Fan (Integrated)
+        Heat Dissipation   : Heat Sink + Fan (Integrated)
 
         Blower(Air intake) : High Speed Fan 
 		
-3.> Microcontroller : Arduino Uno(R3)
+3.> Microcontroller :  Arduino Uno(R3) 
 
 4.> Sensors :
 		
 		Temperature :
-			Air Temperature Sensor  : DHT11 (Temperature + Humidity) / NTC Thermistor.
-			
+			Air Temperature Sensor         : DS18B20 Digital Thermometer.
+			Humidity Sensor                : DHT11 (Temperature + Humidity) / NTC Thermistor.
 			Infant Skin Temperature Sensor : DS18B20 Digital Thermometer.
 			
-		Heart Rate Sensor + O2 Concentration Sensor : Unknown Model
+		Heart Rate Sensor + O2 Concentration Sensor : To measure health paramaeters of an infant
 		
 3.> User Interface :
 		
 		LCD Screen : To display current temp. and humidity.
 		
-		Control Temp/Humidity : Array of 4 buttons.(Increase | Decrease| Right | Left)
+		Control Temperature: 2 buttons.(Increase | Decrease)
+		
+4.> Relay : To control heating element.
 			
 		
-5.> Voltage Source : +12 DC (>1.5A) | Eliminator | Adapter 
+5.> Voltage Source : +12 DC (10A | 120W) | SMPS | Adapter 
+
+6.> Voltage Regulator : LM7812
+    IRZ44 N-Channel MOSFET : TO control fan blade speed.
+    Breadboards, Jumper cable. 
  
           Some added passive components capacitors, resistance etc. required.
 		
