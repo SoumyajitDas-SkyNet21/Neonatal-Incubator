@@ -16,7 +16,5 @@ The infant incubator :
 In order maintain the body temperature of the baby (36 - 37.2°C) the incubator must be able to create an ambient air of 34 - 38°C with a humidity of 40 - 80%.
 
 Link to Youtube Video -: [https://www.youtube.com/watch?v=0eqcL8vToQM](url)
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/0eqcL8vToQM/0.jpg)](http://www.youtube.com/watch?v=0eqcL8vToQM)
